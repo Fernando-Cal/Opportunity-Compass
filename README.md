@@ -3,6 +3,7 @@
 ## What’s this?
 This is a web app built to help underrepresented high schoolers find and share opportunities like scholarships, internships, mentorships, and educational programs. It’s all about making it easier for students who need these resources the most.
 
+
 ---
 
 ## What it does
@@ -69,5 +70,6 @@ Then open [http://localhost:5173](http://localhost:5173) in your browser.
 ---
 
 ## Contact
-Got any questions or suggestions? Reach out to me at fernandomartinez@berkeley.edu
+Got any questions or suggestions? Reach out to me at 
 ```
+fernandomartinez@berkeley.edu
