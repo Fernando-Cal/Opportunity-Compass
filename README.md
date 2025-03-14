@@ -2,6 +2,7 @@
 
 ## What’s this?
 This is a web app built to help underrepresented high schoolers find and share opportunities like scholarships, internships, mentorships, and educational programs. It’s all about making it easier for students who need these resources the most.
+Currently under development 🚧
 
 ![Image](https://github.com/user-attachments/assets/9f693b57-3b95-4991-b39f-20ceef7c7339)
 ---
