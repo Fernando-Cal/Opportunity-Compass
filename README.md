@@ -1,117 +1,74 @@
+```markdown
 # Opportunities & Resources Database
 
-This project is a web application designed to provide a database of opportunities and resources for underrepresented individuals from lower socioeconomic backgrounds. It is built using Next.js, React, TypeScript, and NextUI.
+## What’s this?
+This is a web app built to help underrepresented high schoolers find and share opportunities like scholarships, internships, mentorships, and educational programs. It’s all about making it easier for students who need these resources the most.
 
-## Features
-- **Opportunity Listings**: View, add, edit, and delete opportunities/resources.
-- **User-Friendly Interface**: Responsive and visually appealing design using NextUI.
+---
+
+## What it does
+- **Modern UI** using HeroUI components
+- **Responsive design** for both desktop and mobile
+- **Easy navigation** to browse and filter opportunities
+- **Dashboard** to track stats and trending opportunities
+- **User profiles** to save and track opportunities
+- **Submit new opportunities** with a simple form
 
 ---
 
 ## Tech Stack
+- **Frontend**: 
+  - React.js
+  - TypeScript
+  - HeroUI (for UI components)
+  - Tailwind CSS (for styling)
+  - Vite (for fast build and development)
 
-### Frontend
-- **Next.js**: React-based framework for server-side rendering and static site generation.
-- **TypeScript**: Ensures type safety and improves developer experience.
-- **NextUI**: UI library for clean, pre-styled components.
-
-### Backend
-- **Next.js API Routes**: Built-in backend for handling API requests.
-- **Prisma**: Modern ORM for connecting to the database and managing schemas.
-- **MongoDB**: NoSQL database for storing structured and unstructured data.
-
-### Hosting
-- **Vercel**: Deployment and hosting for the frontend and API.
-
----
-
-## Installation
+## How to run this on your machine
 
 ### Prerequisites
-- Node.js (>=16.x)
-- pnpm (>=8.x)
+You’ll need to have:
+- [Node.js](https://nodejs.org/) (v14 or later)
+- [npm](https://npmjs.com/)
 
-### Steps
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/opportunities-database.git
-   cd opportunities-database
-   ```
-2. Install dependencies:
-   ```bash
-   pnpm install
-   ```
-3. Set up environment variables:
-   Create a `.env` file and add:
-   ```env
-   DATABASE_URL=mongodb+srv://username:password@cluster.mongodb.net/mydatabase
-   ```
-4. Run Prisma migrations:
-   ```bash
-   pnpm prisma migrate dev
-   ```
-5. Run the development server:
-   ```bash
-   pnpm dev
-   ```
-   The application will be available at [http://localhost:3000](http://localhost:3000).
-
----
-
-## Project Structure
-
-```
-.
-├── components       # Reusable UI components
-├── pages
-│   ├── api          # API routes for backend logic
-│   ├── index.tsx    # Homepage
-├── prisma           # Prisma schema and migrations
-├── public           # Static assets
-├── styles           # Global styles
-├── utils            # Utility functions (e.g., database connection)
-├── .env             # Environment variables
-└── README.md        # Project documentation
+### Clone it
+Clone the repo to your machine:
+```bash
+git clone https://github.com/your-username/opportunities-resources-database.git
+cd opportunities-resources-database
 ```
 
----
+### Install dependencies
+Run this to install all the packages:
+```bash
+npm install
+```
 
-## Usage
-
-### Adding Opportunities
-- Navigate to the "Add Opportunity" page.
-- Fill out the form with opportunity details.
-- Submit the form to add the opportunity to the database.
-
-### Viewing Opportunities
-- Visit the homepage to see a list of all opportunities and resources.
-
----
-
-## Deployment
-
-1. Install the Vercel CLI:
-   ```bash
-   pnpm add -g vercel
-   ```
-2. Deploy the application:
-   ```bash
-   vercel
-   ```
-   Follow the prompts to link your project and deploy it.
+### Run the app
+To start the app, run:
+```bash
+npm run dev
+```
+Then open [http://localhost:5173](http://localhost:5173) in your browser.
 
 ---
 
-## Contributing
+## How to use it
 
-Contributions are welcome! Please follow these steps:
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature-name`).
-3. Commit your changes (`git commit -m 'Add new feature'`).
-4. Push to the branch (`git push origin feature-name`).
-5. Open a pull request.
+- **Browse Opportunities**: Check out available scholarships, internships, and more.
+- **Submit Opportunities**: Share new opportunities to help others.
+- **Save Opportunities**: Bookmark your favorites and come back to them later.
+- **Dashboard**: See stats on what’s trending and upcoming deadlines.
 
 ---
 
+## Shoutouts
+- Big thanks to **HeroUI** for the components.
+- Thanks to **Tailwind CSS** for making styling easy.
+- Inspired by a desire to help students who need access to opportunities.
 
+---
 
+## Contact
+Got any questions or suggestions? Reach out to me at fernandomartinez@berkeley.edu
+```
