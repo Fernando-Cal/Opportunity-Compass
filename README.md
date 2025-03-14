@@ -1,4 +1,3 @@
-```markdown
 # Opportunities & Resources Database
 
 ## What’s this?
